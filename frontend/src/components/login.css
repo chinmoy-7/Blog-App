@@ -1,0 +1,35 @@
+.login-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login-form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 20%;
+    border:2px solid black
+}
+#login-form>div{
+    /* background-color: red; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#login-form>div>input{
+    width:13rem;
+    height:1.4rem;
+    align-items: flex-start;
+}
+#login-button{
+    height: 2.3rem;
+    cursor: pointer;
+    width: 7rem;
+}

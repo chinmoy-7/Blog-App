@@ -1,0 +1,32 @@
+.blog-container{
+    height: 100vh;
+    /* background-color: red; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    border-bottom: 2px solid lightblue;
+    /* background-color: green; */
+}
+.content{
+    height: 90%;
+    /* background-color: blue; */
+}
+.navbar-right{
+    height: 100%;
+}
+.navbar-right>ul{
+    list-style: none;
+    display: flex;
+
+}
+.navbar-right>ul>li{
+    margin-left: 10px;
+}
+.navbar-right>ul>li>button{
+    width: 7rem;
+    height: 2.3rem;
+    cursor: pointer;
+}

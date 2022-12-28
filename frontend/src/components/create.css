@@ -1,0 +1,29 @@
+.create-container{
+ display: flex;   
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+}
+#create-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 25%;
+    border:2px solid black
+}
+#create-form>div{
+    height: 40%;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+#create-form>div>input{
+    width:12rem;
+    height: 1.4rem;
+    /* height: 200px; */
+}
